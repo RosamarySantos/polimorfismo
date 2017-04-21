@@ -6,7 +6,9 @@ import java.util.List;
 public class TestFiguras {
 
 	public static void main(String[] args) {
-		
+		Figura f1 = new Circulo(0);
+	//	Figura f2 = new Figura("hola"); no se puede instanciar 
+		//objetos de una clase abstracta
 		List<Figura> listaFiguras = new ArrayList<>();
 		listaFiguras.add(new Circulo(2));
 		listaFiguras.add(new Circulo(4));
